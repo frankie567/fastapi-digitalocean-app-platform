@@ -74,7 +74,7 @@ TORTOISE_ORM = {
     "connections": {"default": settings.database_url},
     "apps": {
         "models": {
-            "models": ["app.models"],
+            "models": ["project.models"],
             "default_connection": "default",
         },
     },
